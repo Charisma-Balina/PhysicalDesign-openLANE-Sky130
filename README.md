@@ -1,7 +1,7 @@
 # Advanced Physical Design using OPENLANE/SKY130
 VLSI System Design workshop on Physical Design Flow from RTL to GDSII using OPENLANE and SKY130 PDK.
 # Chip Design
-Each chip has its core, the core considered here is of RISC-V based Soc. RISC-V is an instruction set architecture, that helps communicating with the computer
+Each chip has its core, the core considered here is of RISC-V based SoC. RISC-V is an instruction set architecture that helps to communicate with the computer.
 
 <img width="617" alt="Chip design" src="https://user-images.githubusercontent.com/72096419/105984549-4b679900-60c0-11eb-91ff-c1f901c42d2c.png">
 
@@ -11,7 +11,7 @@ PLLs, DAC, ADC and SRAMs are known as Foundry IP's. They are manually designed.
 Macros are digital blocks which are made up of digital logic.
 
 # OpenLANE ASIC Flow
-Using openlane, we can produce a GDSII from a chip RTL
+Using openlane, we can produce a GDSII from a chip RTL.
 
 <img width="532" alt="openlane flow" src="https://user-images.githubusercontent.com/72096419/105984775-9b466000-60c0-11eb-9cf9-a217bd37b9a1.png">
 
