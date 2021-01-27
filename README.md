@@ -5,9 +5,9 @@ Each chip has its core, the core considered here is of RISC-V based Soc. RISC-V 
 
 <img width="617" alt="Chip design" src="https://user-images.githubusercontent.com/72096419/105984549-4b679900-60c0-11eb-91ff-c1f901c42d2c.png">
 
-## Foundry IP's
+### Foundry IP's
 PLLs, DAC, ADC and SRAMs are known as Foundry IP's. They are manually designed.
-## Macros
+### Macros
 Macros are digital blocks which are made up of digital logic.
 
 # OpenLANE ASIC Flow
