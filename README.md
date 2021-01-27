@@ -2,7 +2,9 @@
 VLSI System Design workshop on Physical Design Flow from RTL to GDSII using OPENLANE and SKY130 PDK.
 # Chip Design
 Each chip has its core, the core considered here is of RISC-V based Soc. RISC-V is an instruction set architecture, that helps communicating with the computer
+
 <img width="617" alt="Chip design" src="https://user-images.githubusercontent.com/72096419/105984549-4b679900-60c0-11eb-91ff-c1f901c42d2c.png">
+
 ## Foundry IP's
 PLLs, DAC, ADC and SRAMs are known as Foundry IP's. They are manually designed.
 ## Macros
