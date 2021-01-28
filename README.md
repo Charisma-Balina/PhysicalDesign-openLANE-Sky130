@@ -1,7 +1,7 @@
 # Advanced Physical Design using OPENLANE/SKY130
 VLSI System Design workshop on Physical Design Flow from RTL to GDSII using OPENLANE and SKY130 PDK.
 # Chip Design
-Each chip has its core, the core considered here is of RISC-V based SoC. RISC-V is an instruction set architecture that helps to communicate with the computer.
+Each chip has its core, the core considered here is of RISC-V based SoC. RISC-V is an instruction set architecture that helps to communicate with the computer. A netlist describes the connectivity of an electronic design. The CORE is the section of the chip where the fundamental logic of the design is placed. A DIE consists of CORE is a small semiconductor material on which the circuit is fabricated.
 
 <img width="617" alt="Chip design" src="https://user-images.githubusercontent.com/72096419/105984549-4b679900-60c0-11eb-91ff-c1f901c42d2c.png">
 
@@ -83,7 +83,12 @@ The D flip flops are 1634
 Therefore the flop ratio is 0.094 
 
 # Day 2
+
 ## Floorplan
+The arrangement of IP's in a chip is referred as floorplanning.
+Utilization factor is the area occupied by netlist to total area of the core.
+Aspect ratio is the height of the core divided by the width of the core.
+
 The command to run floorplan in openlane is
     % run_floorplan
 
@@ -102,9 +107,32 @@ We can see the standard cell placement in the left corner:
 <img width="602" alt="standard cell placement left corner 6" src="https://user-images.githubusercontent.com/72096419/106124177-cf815580-6180-11eb-8ede-fc8abf7262fa.png">
 
 ## Placement
+It happens in two stages:
+* Global Placement
+* Detailed Placement
 The command to run placement in openlane is
     % run_placement
+    
+ <img width="514" alt="placement 7" src="https://user-images.githubusercontent.com/72096419/106124614-474f8000-6181-11eb-86b6-bc469eb2154a.png">
  
+### Placement in Magic
+
+<img width="448" alt="8 magic placement" src="https://user-images.githubusercontent.com/72096419/106124626-4b7b9d80-6181-11eb-86c3-87d58452cce5.png">
+
+## Cell Design Flow
+
+### INPUTS - 
+    * PDK's: DRC and LVS rules, SPICE models, library and user-defined specs.
+### Design Steps -
+    * Circuit Design, Layout Design, Characterization.
+### Outputs - 
+    * CDL( Circuit Description Language), GDSII, LEF, extracted SPICE netlist, timing, noise, power.libs function.
+
+### Decoupling Capacitors:
+They are placed local to preplaced cells during floorplanning. The capacitor will charge upto the power supply voltage over time and it will work as a charge reservoir. Therefore, it decouples the circuit from the mail supply and acts like the power supply to the circuit.
+
+
+
 
 
 
