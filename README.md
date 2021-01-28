@@ -201,6 +201,17 @@ openLANE has openROAD which performs the timing analysis by creating a database 
 ## Power Disrtibution Network
 The command used to run PDN is % gen_pdn.
 
+<img width="536" alt="power planning 1" src="https://user-images.githubusercontent.com/72096419/106177041-075abe00-61be-11eb-8c61-7c82f5bd7fc2.png">
+
+## Routing
+TritonRoute is used to perform the routing.
+Routing has two stages:
+1) Global Routing
+2) Detailed Routing
+
+
+
+
 
 
 
