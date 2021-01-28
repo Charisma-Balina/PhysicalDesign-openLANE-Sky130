@@ -186,7 +186,7 @@ Overwrite the previous run to include the new cells.
 Slack violations can be fixed by STA (Static Timing Analysis) with openSTA.
 
 ## Clock Tree Synthesis
-The command to run CTS is run_cts
+The command to run CTS is % run_cts. 
 After CTS, new clock buffers will be inserted into the design.
 
 <img width="775" alt="cts 3" src="https://user-images.githubusercontent.com/72096419/106174460-12f8b580-61bb-11eb-84f9-728dc3e1ca2b.png">
@@ -199,7 +199,8 @@ openLANE has openROAD which performs the timing analysis by creating a database 
 
 # DAY 5
 ## Power Disrtibution Network
-The command used to run PDN is gen_pdn
+The command used to run PDN is % gen_pdn.
+
 
 
 
