@@ -147,6 +147,11 @@ Cloning the Git Repository : https://github.com/nickson-jose/vsdstdcelldesign
 
 Copying sky130A.tech file 
 
+<img width="504" alt="copying tech file 2" src="https://user-images.githubusercontent.com/72096419/106165376-138c4e80-61b1-11eb-8212-955daf87d107.png">
+
+<img width="504" alt="3" src="https://user-images.githubusercontent.com/72096419/106165411-1d15b680-61b1-11eb-9b4b-6befa055cd0c.png">
+
+## CMOS Inverter in Magic
 
 
 
