@@ -160,14 +160,21 @@ Copying sky130A.tech file
 Magic performs continuous DRC checks and the errors are appeared in the tkcon window.
 
 ## PEX Extraction
-Output the .ext file into spice file
+Output the .ext file into spice file.
 
 <img width="505" alt="spice extraction 6" src="https://user-images.githubusercontent.com/72096419/106166844-96fa6f80-61b2-11eb-949b-701c7b0aec27.png">
 
 <img width="504" alt="7" src="https://user-images.githubusercontent.com/72096419/106166871-9cf05080-61b2-11eb-9fa8-3ec84d85dec8.png">
 
-Run the simulation with ngspice and the output vs time plot can be viewed
+Run the simulation with ngspice and the output vs time plot can be viewed.
 
+<img width="296" alt="8 output vs time" src="https://user-images.githubusercontent.com/72096419/106167423-2e5fc280-61b3-11eb-8e64-c987f572572b.png">
+
+# Day 4
+## LEF Files:
+1) Technology LEF - contains layer information, via information and restricted DRC rules.
+2) Cell LEF - contains abstract information of the standard cells
+### Converting grid info to track info
 
 
 
