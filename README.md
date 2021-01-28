@@ -153,6 +153,14 @@ Copying sky130A.tech file
 
 ## CMOS Inverter in Magic
 
+<img width="505" alt="cmd to view in magic 4" src="https://user-images.githubusercontent.com/72096419/106165900-99a89500-61b1-11eb-99e1-11455b7b1a46.png">
+
+<img width="525" alt="inverter in magic" src="https://user-images.githubusercontent.com/72096419/106165920-9f05df80-61b1-11eb-80db-e3e8465fda51.png">
+
+Magic performs continuous DRC checks and the errors are appeared in the tkcon window.
+
+## PEX Extraction
+Output the .ext file into spice file
 
 
 
