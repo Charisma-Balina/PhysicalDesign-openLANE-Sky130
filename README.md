@@ -131,6 +131,17 @@ The command to run placement in openlane is,
 They are placed local to preplaced cells during floorplanning. The capacitor will charge upto the power supply voltage over time and it will work as a charge reservoir. Therefore, it decouples the circuit from the mail supply and acts like the power supply to the circuit.
 
 # DAY 3
+## 16 Mask CMOS Process
+* Substrate Selection 
+* Create an active region for transistors 
+* Nwell & Pwell formation 
+* Creating Gate terminal 
+* Lightly Doped Drain (LDD) formation 
+* Source and Drain formation 
+* Contacts & local interconnect Creation 
+* Higher Level metal layer formation 
+
+Cloning the Git Repository : https://github.com/nickson-jose/vsdstdcelldesign
 
 
 
