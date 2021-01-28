@@ -180,6 +180,15 @@ Run the simulation with ngspice and the output vs time plot can be viewed.
 
 ### LEF file from standrad cell inverter
 
+<img width="357" alt="lef from std cell 2" src="https://user-images.githubusercontent.com/72096419/106170632-a5e32100-61b6-11eb-82f7-68a92d19fe74.png">
 
+Overwrite the previous run to include the new cells.
+Slack violations can be fixed by STA (Static Timing Analysis) with openSTA.
+
+## Clock Tree Synthesis
+The command to run CTS is run_cts
+After CTS, new clock buffers will be inserted into the design.
+
+Layout after CTS in magic:
 
 
