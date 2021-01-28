@@ -48,6 +48,13 @@ Process Design Kit is a collection of files used to model a fabrication process 
   * Netgen - Performs LVS Checks
   
  # DAY 1
+ ## Design Preparation Step
+ ### Invoking OpenLane
+ 
+
+Openlane has many built-in designs and we design for picorv32a. We will be performing the synthesis first.
+The mergeLEF.py indicates the merging of the two LEF files into one. 
+The config.tcl file shows the default parameters taken by run 
  
 
 
