@@ -176,5 +176,10 @@ Run the simulation with ngspice and the output vs time plot can be viewed.
 2) Cell LEF - contains abstract information of the standard cells
 ### Converting grid info to track info
 
+<img width="165" alt="gridinfototrackinfo 1" src="https://user-images.githubusercontent.com/72096419/106169548-80094c80-61b5-11eb-9cde-4c0204552d8a.png">
+
+### LEF file from standrad cell inverter
+
+
 
 
