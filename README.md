@@ -92,5 +92,13 @@ The command to run floorplan in openlane is run_floorplan
 
 ### Floorplan in Magic
 
+<img width="619" alt="magicT cmd 4" src="https://user-images.githubusercontent.com/72096419/106123933-8a5d2380-6180-11eb-9300-cba35c86cccd.png">
+
+<img width="615" alt="5" src="https://user-images.githubusercontent.com/72096419/106123948-8f21d780-6180-11eb-8fd4-30bbae3edd95.png">
+
+We can see the standard cell placement in the left corner.
+
+
+
 
 
