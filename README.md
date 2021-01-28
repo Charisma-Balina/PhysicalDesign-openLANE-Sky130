@@ -143,6 +143,11 @@ They are placed local to preplaced cells during floorplanning. The capacitor wil
 
 Cloning the Git Repository : https://github.com/nickson-jose/vsdstdcelldesign
 
+<img width="513" alt="cloning the git repo 1" src="https://user-images.githubusercontent.com/72096419/106129741-88965e80-6186-11eb-8b8a-a5fb54dd50fd.png">
+
+Copying sky130A.tech file 
+
+
 
 
 
