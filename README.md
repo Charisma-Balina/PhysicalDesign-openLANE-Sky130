@@ -53,12 +53,20 @@ Process Design Kit is a collection of files used to model a fabrication process 
  
 The ./flow.tcl -interactive command runs the OpenLane in interactive mode.
 
-### Design Preparation Step 
+## Design Preparation Step 
 
+<img width="503" alt="2" src="https://user-images.githubusercontent.com/72096419/106121803-f8541b80-617d-11eb-8b11-c498ff787a0e.png">
 
 Openlane has many built-in designs and we design for picorv32a. We will be performing the synthesis first.
 The mergeLEF.py indicates the merging of the two LEF files into one. 
 The config.tcl file shows the default parameters taken by run.
 
+## Synthesis
+
+After the preparation is done as shown above, the next command is,
+
+   run_synthesis 
+
+This will run the yosys synthesis as well as the abc.
 
 
