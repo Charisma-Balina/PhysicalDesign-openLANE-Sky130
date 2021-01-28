@@ -69,4 +69,17 @@ After the preparation is done as shown above, the next command is,
 
 This will run the yosys synthesis as well as the abc.
 
+<img width="956" alt="3" src="https://user-images.githubusercontent.com/72096419/106122095-4f59f080-617e-11eb-8aff-4ccaa5c23dc8.png">
+
+We can see the chip module area :
+
+Chip area for module '\picorv32a': 237049.849600 
+
+The challenge of day 1 is to find the flop ratio which is the number of D flip flops to total number of cells 
+
+The total number of cells are 17323 
+
+The D flip flops are 1634 
+
+Therefore the flop ratio is 0.094 
 
