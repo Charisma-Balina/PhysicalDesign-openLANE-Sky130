@@ -86,4 +86,11 @@ Therefore the flop ratio is 0.094
 ## Floorplan
 The command to run floorplan in openlane is run_floorplan
 
+<img width="506" alt="1" src="https://user-images.githubusercontent.com/72096419/106123552-10c53580-6180-11eb-8d2a-a2cc69281f85.png">
+
+<img width="505" alt="3 deffile" src="https://user-images.githubusercontent.com/72096419/106123567-1589e980-6180-11eb-946a-2ddd3f62793a.png">
+
+### Floorplan in Magic
+
+
 
