@@ -47,7 +47,7 @@ Process Design Kit is a collection of files used to model a fabrication process 
   * Magic - Performs DRC Checks & Antenna Checks
   * Netgen - Performs LVS Checks
   
- # DAY 1
+# DAY 1
  
  <img width="612" alt="1" src="https://user-images.githubusercontent.com/72096419/106121150-3d2b8280-617d-11eb-9933-5b2b3e5e83d8.png">
  
@@ -71,7 +71,6 @@ This will run the yosys synthesis as well as the abc.
 
 <img width="956" alt="3" src="https://user-images.githubusercontent.com/72096419/106122095-4f59f080-617e-11eb-8aff-4ccaa5c23dc8.png">
 
-We can see the chip module area :
 
 Chip area for module '\picorv32a': 237049.849600 
 
@@ -82,4 +81,9 @@ The total number of cells are 17323
 The D flip flops are 1634 
 
 Therefore the flop ratio is 0.094 
+
+# Day 2
+## Floorplan
+The command to run floorplan in openlane is run_floorplan
+
 
