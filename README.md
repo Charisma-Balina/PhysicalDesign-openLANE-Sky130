@@ -65,7 +65,7 @@ The config.tcl file shows the default parameters taken by run.
 
 After the preparation is done as shown above, the next command is,
 
-   run_synthesis 
+   % run_synthesis 
 
 This will run the yosys synthesis as well as the abc.
 
@@ -84,7 +84,8 @@ Therefore the flop ratio is 0.094
 
 # Day 2
 ## Floorplan
-The command to run floorplan in openlane is run_floorplan
+The command to run floorplan in openlane is
+    % run_floorplan
 
 <img width="506" alt="1" src="https://user-images.githubusercontent.com/72096419/106123552-10c53580-6180-11eb-8d2a-a2cc69281f85.png">
 
@@ -96,8 +97,14 @@ The command to run floorplan in openlane is run_floorplan
 
 <img width="615" alt="5" src="https://user-images.githubusercontent.com/72096419/106123948-8f21d780-6180-11eb-8fd4-30bbae3edd95.png">
 
-We can see the standard cell placement in the left corner.
+We can see the standard cell placement in the left corner:
 
+<img width="602" alt="standard cell placement left corner 6" src="https://user-images.githubusercontent.com/72096419/106124177-cf815580-6180-11eb-8ede-fc8abf7262fa.png">
+
+## Placement
+The command to run placement in openlane is
+    % run_placement
+ 
 
 
 
