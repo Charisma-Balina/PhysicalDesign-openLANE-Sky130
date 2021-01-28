@@ -204,11 +204,16 @@ The command used to run PDN is % gen_pdn.
 <img width="536" alt="power planning 1" src="https://user-images.githubusercontent.com/72096419/106177041-075abe00-61be-11eb-8c61-7c82f5bd7fc2.png">
 
 ## Routing
+The command used to run routing is % run_routing.
 TritonRoute is used to perform the routing.
 Routing has two stages:
 1) Global Routing
 2) Detailed Routing
 
+<img width="408" alt="route 2" src="https://user-images.githubusercontent.com/72096419/106177478-8e0f9b00-61be-11eb-81bd-4030d0d6ae61.png">
+
+## SPEF
+SPEF(Standard Paracitic Extraction Form) file will generate from DEF and LEF outside of openlane after routing.
 
 
 
