@@ -162,6 +162,12 @@ Magic performs continuous DRC checks and the errors are appeared in the tkcon wi
 ## PEX Extraction
 Output the .ext file into spice file
 
+<img width="505" alt="spice extraction 6" src="https://user-images.githubusercontent.com/72096419/106166844-96fa6f80-61b2-11eb-949b-701c7b0aec27.png">
+
+<img width="504" alt="7" src="https://user-images.githubusercontent.com/72096419/106166871-9cf05080-61b2-11eb-9fa8-3ec84d85dec8.png">
+
+Run the simulation with ngspice and the output vs time plot can be viewed
+
 
 
 
