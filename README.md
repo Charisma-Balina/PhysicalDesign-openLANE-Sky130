@@ -64,7 +64,7 @@ The config.tcl file shows the default parameters taken by run.
 ## Synthesis
 
 After the preparation is done as shown above, the next command is,
-     *% run_synthesis 
+     % run_synthesis 
 
 This will run the yosys synthesis as well as the abc.
 
@@ -88,8 +88,8 @@ The arrangement of IP's in a chip is referred as floorplanning.
 Utilization factor is the area occupied by netlist to total area of the core.
 Aspect ratio is the height of the core divided by the width of the core.
 
-The command to run floorplan in openlane is
-    *% run_floorplan
+The command to run floorplan in openlane is,
+    % run_floorplan
 
 <img width="506" alt="1" src="https://user-images.githubusercontent.com/72096419/106123552-10c53580-6180-11eb-8d2a-a2cc69281f85.png">
 
@@ -109,8 +109,8 @@ We can see the standard cell placement in the left corner:
 It happens in two stages:
 * Global Placement
 * Detailed Placement
-The command to run placement in openlane is
-    *% run_placement
+The command to run placement in openlane is, 
+    % run_placement
     
  <img width="514" alt="placement 7" src="https://user-images.githubusercontent.com/72096419/106124614-474f8000-6181-11eb-86b6-bc469eb2154a.png">
  
@@ -120,17 +120,17 @@ The command to run placement in openlane is
 
 ## Cell Design Flow
 
-### INPUTS - 
+1) INPUTS - 
      PDK's: DRC and LVS rules, SPICE models, library and user-defined specs.
-### Design Steps -
+2) Design Steps -
      Circuit Design, Layout Design, Characterization.
-### Outputs - 
+3) Outputs - 
      CDL( Circuit Description Language), GDSII, LEF, extracted SPICE netlist, timing, noise, power.libs function.
 
 ### Decoupling Capacitors:
 They are placed local to preplaced cells during floorplanning. The capacitor will charge upto the power supply voltage over time and it will work as a charge reservoir. Therefore, it decouples the circuit from the mail supply and acts like the power supply to the circuit.
 
-
+# DAY 3
 
 
 
