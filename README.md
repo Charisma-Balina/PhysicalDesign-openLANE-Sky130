@@ -215,6 +215,9 @@ Routing has two stages:
 ## SPEF
 SPEF(Standard Paracitic Extraction Form) file will generate from DEF and LEF outside of openlane after routing.
 
+# Acknowledgements:
+* Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
+* Nickson P Jose, Teaching Assistant (VSD Corp. Pvt. Ltd)
 
 
 
